@@ -1,0 +1,698 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+
+  font-family: "Be Vietnam Pro", sans-serif;
+  height: 2172px;
+  background-color: #FCFCFD;
+}
+
+
+.container {
+  margin: auto;
+  width: calc(100% - 324px);
+
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header {
+
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  box-shadow: 0px 4px 20px 0px #0000001a;
+  background-color: #ffffff;
+
+}
+
+header .row {
+  justify-content: space-between;
+}
+
+header .row .logo-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+header .row .logo-nav .logo {
+  padding: 14px;
+
+}
+
+header .row .logo-nav nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+header .row .logo-nav nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 26px;
+  list-style: none;
+  padding: 14px;
+  justify-content: center;
+  align-items: center;
+}
+
+header .row .logo-nav nav ul a {
+  color: #262626;
+  text-decoration: none;
+}
+
+header .row .auth {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 14px;
+}
+
+header .row .auth .Login span {
+  color: #fff;
+
+  background-color: #FF9500;
+  padding: 14px 34px;
+  border-radius: 8px;
+
+}
+
+main .Unlock-Your-Creative-Potential {
+
+  margin: auto;
+  margin-top: 155px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  width: calc(100% - 958px);
+}
+
+main .Unlock-Your-Creative-Potential .title {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 10px;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+
+}
+
+main .Unlock-Your-Creative-Potential img {
+  width: 62px;
+}
+
+main .Unlock-Your-Creative-Potential .title .Unlock-color {
+
+  color: #FF9500;
+}
+
+main .Unlock-Your-Creative-Potential .details {
+  text-align: center;
+}
+
+main .Unlock-Your-Creative-Potential .bottoms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: auto;
+}
+
+main .Unlock-Your-Creative-Potential .bottoms .Explore-Courses {
+  background-color: #FF9500;
+  border-radius: 8px;
+  color: #FFF;
+  padding: 24px 18px;
+}
+
+main .Unlock-Your-Creative-Potential .bottoms .View-Pricing {
+  background-color: #FFF;
+  border-radius: 8px;
+  padding: 24px 18px;
+}
+
+main .companys {
+  padding: 100px 0px;
+}
+
+main .companys .container .row {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: auto;
+  overflow: auto;
+  background-color: #FFF;
+  box-shadow: 0px 4px 20px 0px #0000001a;
+}
+
+main .companys .container .row .company {
+
+  padding: 10px 16px;
+
+}
+
+main .main-video .imag img {
+  width: 100%;
+}
+
+main .benefits-and-cards .container .row .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+
+}
+
+main .benefits-and-cards .container .row .head .details {
+  width: calc((100% - 40px) / 1.5);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 16px;
+}
+
+main .benefits-and-cards .container .row .head .details p {
+  color: #59595A;
+}
+
+main .benefits-and-cards .container .row .head .bottom span {
+  background-color: #FFF;
+  box-shadow: 0px 4px 20px 0px #0000001a;
+  box-shadow: ;
+  padding: 12px 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+main .benefits-and-cards .cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: auto;
+}
+
+main .benefits-and-cards .card {
+
+  width: calc((100% - 60px) / 3);
+  background-color: #FFF;
+  box-shadow: 0px 4px 20px 0px #0000001a;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 8px;
+  padding: 20px;
+
+}
+
+main .benefits-and-cards .card .card-number {
+  display: flex;
+  justify-content: end;
+  font-size: 40px;
+}
+
+main .benefits-and-cards .card .details {
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+main .benefits-and-cards .card .details p {
+  color: #59595A;
+}
+
+main .benefits-and-cards .card .imag {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+
+main .benefits-and-cards .card .imag img {
+  display: flex;
+  background-color: #FCFCFD;
+  box-shadow: 0px 4px 20px 0px #0000001a;
+  width: fit-content;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: end;
+
+}
+
+main .Our-Courses .container .row .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+
+}
+
+main .Our-Courses .container .row .head .details {
+  width: calc((100% - 40px) / 1.5);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 16px;
+}
+
+main .Our-Courses .container .row .head .details p {
+  color: #59595A;
+}
+
+main .Our-Courses .container .row .head .bottom span {
+  background-color: #FFF;
+  box-shadow: 0px 4px 20px 0px #0000001a;
+  box-shadow: ;
+  padding: 12px 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .Our-Courses .cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+
+}
+
+main .Our-Courses .cards .card {
+  display: flex;
+  padding: 20px 30px;
+  background-color: #FFF;
+  box-shadow: 0px 4px 20px 0px #0000001a;
+
+  flex-direction: column;
+  gap: 25px;
+  width: calc((100% - 40px) / 2);
+}
+
+main .Our-Courses .cards .card .imag img {
+  width: 100%;
+}
+
+main .Our-Courses .cards .card .time-author {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+main .Our-Courses .cards .card .time-author .time-and-progress {
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+main .Our-Courses .cards .card .time-author .time-and-progress .time {
+  background-color: #FFF;
+  box-shadow: 0px 4px 20px 0px #0000001a;
+  padding: 10px 16px;
+  border-radius: 8px;
+}
+
+main .Our-Courses .cards .card .time-author .time-and-progress .progress {
+  background-color: #FFF;
+  box-shadow: 0px 4px 20px 0px #0000001a;
+  padding: 10px 16px;
+  border-radius: 8px;
+}
+
+main .Our-Courses .cards .card .details {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+main .Our-Courses .cards .card .details p{
+  color: #59595A;
+}
+
+main .Our-Courses .cards .card .bottom {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #FFF;
+  box-shadow: 0px 4px 20px 0px #0000001a;
+  padding: 10px 16px;
+  border-radius: 8px;
+
+}
+
+
+main .Our-Testimonials .container .row .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+
+}
+
+main .Our-Testimonials .container .row .head .details {
+  width: calc((100% - 40px) / 1.5);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 16px;
+}
+
+main .Our-Testimonials .container .row .head .details  p{
+  color: #59595A;
+}
+
+main .Our-Testimonials .container .row .head .bottom span {
+  background-color: #FFF;
+  box-shadow: 0px 4px 20px 0px #0000001a;
+  box-shadow: ;
+  padding: 12px 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .Our-Testimonials .cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+main .Our-Testimonials .cards .card{
+  background-color: #FFF;
+  box-shadow: 0px 4px 20px 0px #0000001a;
+  border-radius: 8px;
+  width: calc((100% - 30px) / 2);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px 16px;
+
+}
+main .Our-Testimonials .cards .card .user-read{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+main .Our-Testimonials .cards .card .details {
+  color: #59595A;
+} 
+main .Our-Testimonials .cards .card .user-read .bottom{
+  background-color: #FFF;
+  box-shadow: 0px 4px 20px 0px #0000001a;
+  box-shadow: ;
+  padding: 12px 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .Our-Testimonials .cards .card .username-and-pic{
+  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items:center ;
+}
+
+main .Our-Pricing .container .row .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+
+}
+
+main .Our-Pricing .container .row .head .details {
+  width: calc((100% - 40px) / 1.5);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 16px;
+}
+
+main Our-Pricing .container .row .head .details  p{
+  color: #59595A;
+}
+
+main .Our-Pricing .container .row .head .bottom{
+  background-color: #FFF;
+  box-shadow: 0px 4px 20px 0px #0000001a;
+  padding: 12px 20px;
+  border-radius: 8px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+main .Our-Pricing .container .row .head .bottom span:nth-child(1){
+  background-color:#FF9500;
+  box-shadow: 0px 4px 20px 0px #0000001a;
+  padding: 12px 20px;
+  border-radius: 8px;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+}
+main .Our-Pricing .container .row .cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap:30px;
+  width: 100%;
+  background-color: #FFF;
+  box-shadow: 0px 4px 20px 0px #0000001a;
+  padding: 12px 20px;
+  border-radius: 8px;
+} 
+main .Our-Pricing .container .row .cards .card{
+  background-color: #FFF;
+  box-shadow: 0px 4px 20px 0px #0000001a;
+  border-radius: 8px;
+  width: calc((100% - 30px) / 2);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px 16px;
+}
+main .Our-Pricing .container .row .cards .card .head-card{
+  display: flex;
+  padding: 20px 16px;
+  border-radius: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  background-color:#FFEACC ;
+}
+main .Our-Pricing .container .row .cards .card .price{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+}
+main .Our-Pricing .container .row .cards .card .price span:nth-child(1){
+  font-size: 70px;
+ 
+}
+
+main .Our-Pricing .container .row .cards .card .table-and-bottom{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main .Our-Pricing .container .row .cards .card .table-and-bottom .one-row{
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #FFF;
+  box-shadow: 0px 4px 20px 0px #0000001a;
+  border-radius: 8px;
+  padding: 12px 10px ;
+}
+main .Our-Pricing .container .row .cards .card .table-and-bottom .bottom-row{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:center;
+  background-color: #FF9500;
+  color: #FFF;
+  box-shadow: 0px 4px 20px 0px #0000001a;
+  border-radius: 8px;
+  padding: 12px 10px ;
+}
+
+
+footer{
+  margin-top: 120px;
+  color: #FFF;
+  box-shadow: 0px 4px 20px 0px #0000001a;
+  border-radius: 8px;
+  padding: 25px 0px ;
+  color: #262626;
+  
+}
+footer ul{
+  list-style: none;
+}
+footer .container .row {
+  flex-direction: column;
+  gap: 100px;
+}
+footer .container .row .first{
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 70px;
+}
+footer .container .row .first .content{
+  display: flex;
+  flex-direction: column;
+  gap:20px
+}
+footer .container .row .first .tables{
+
+display: flex;
+flex-grow: 1;
+flex-wrap: wrap;
+justify-content: end;
+gap: 50px;
+
+}
+
+footer .container .row .first .tables .table{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+footer .container .row .first .tables .table ul{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+
+footer .container .row .first .tables .table-pic{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 10px;
+  align-items:center;
+
+}
+footer .container .row .first .tables .pices{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items:center;
+
+}
+footer .container .row .last{
+  align-items: center;
+  text-align: center;
+  justify-content:center ;
+  color: #59595A;
+
+}
+
+
+@media screen and (min-width:0) and (max-width:1418px) {
+  main .Unlock-Your-Creative-Potential {
+    width: 100%;
+
+
+  }
+}
+
+
+@media screen and (min-width:0) and (max-width:1200px) {
+
+  main .benefits-and-cards .card {
+    width: calc((100% - 40px) / 2);
+  }
+}
+
+@media screen and (min-width:0) and (max-width:1110px) {
+
+  header .container .row nav {
+    display: none;
+  }
+
+  main .Our-Courses .cards .card {
+    width: 100%;
+  }
+  main .Our-Testimonials .cards .card {
+    width: 100%;
+  }
+  main .Our-Pricing .container .row .cards .card{
+    width: 100%;
+  }
+
+}
+
+@media screen and (min-width:0) and (max-width:900px) {
+  main .benefits-and-cards .card {
+    width: 100%;
+  }
+
+}
+
+@media screen and (min-width:0) and (max-width:700px) {
+
+  .container {
+    width: 95%;
+  }
+
+}
+
+
+@media screen and (min-width:0) and (max-width:600px){
+  main .Our-Pricing .container{
+    width: 100%;
+  }
+main .Our-Pricing .head{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+
+}
+
+@media screen and (min-width:0) and (max-width:474px) {
+
+  main .Unlock-Your-Creative-Potential .title {
+    font-size: 12px;
+  }
+
+  main .Unlock-Your-Creative-Potential .title img {
+    width: 48px;
+  }
+}
